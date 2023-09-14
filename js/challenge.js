@@ -23,3 +23,19 @@ minusButton.addEventListener(`click`, (eventObject) => {
 const counterElement = document.getElementById(`counter`)
 counterElement.innerText--
 } )
+
+
+/*const heartButton = document.getElementById(`heart`)
+heartButton.addEventListener(`click`, (eventObject) => {
+    console.log(eventObject.target)
+const likeElement = document.querySelector(`ul`)
+likeElement.innerText++ 
+} ) */
+
+//find number from counter// 
+//attach number to a string//
+//attach string to number of likes plus 1//
+//time <= 1/=, times > 1//
+//find like number//
+
+
