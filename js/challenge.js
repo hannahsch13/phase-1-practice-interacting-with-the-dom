@@ -10,3 +10,16 @@ commentsContainer.append(commentDiv)
 eventObject.target.reset()
 }
 theFormPlan.addEventListener('submit', formPlan)
+
+const plusButton = document.getElementById(`plus`)
+plusButton.addEventListener(`click`, (eventObject) => {
+    console.log(eventObject.target)
+const counterElement = document.getElementById(`counter`)
+counterElement.innerText++
+} )
+const minusButton = document.getElementById(`minus`)
+minusButton.addEventListener(`click`, (eventObject) => {
+    console.log(eventObject.target)
+const counterElement = document.getElementById(`counter`)
+counterElement.innerText--
+} )
